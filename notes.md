@@ -497,7 +497,7 @@ Currency Exchange
 To show how we can use APIs in our applications, let’s work on building an application where we can find exchange rates between two currencies. Throughout the exercise, we’ll be using the European Central Bank’s Exchange Rate API. By visiting their website, you’ll see the API’s documentation, which is generally a good place to start when you wish to use an API. We can test this api by visiting the URL: https://api.exchangeratesapi.io/latest?base=USD. When you visit this page, you’ll see the exchange rate between the U.S. Dollar and many other currencies, written in JSON form. You can also change the GET parameter in the URL from USD to any other currency code to change the rates you get. 
 
 # API call: This is my key beloww and since I am using a free tiers, my base=EUR(This means the code will be // const rate = data.rates.USD;)
-https://api.exchangeratesapi.io/v1/latest?access_key=73ee21e9aac45a313560bf95a5ffc0bc
+https://api.exchangeratesapi.io/v1/latest?access_key=#######MODIFIER*******
 
 Let’s take a look at how to implement this API into an application by creating a new HTML file called currency.html and link it to a JavaScript file but leave the body empty:
 
