@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('form').onsubmit = function() {
 
         // Send a GET request to the URL
-        fetch('https://api.exchangeratesapi.io/v1/latest?access_key=73ee21e9aac45a313560bf95a5ffc0bc')
+        fetch('https://api.exchangeratesapi.io/v1/latest?access_key=MODIFIER')
         // Put response into json form
         .then(response => response.json())
         .then(data => {
